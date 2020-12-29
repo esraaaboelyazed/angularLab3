@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "angular-lecture3"
+  "defaultProject": "angular-lecture3",
+  "cli": {
+    "analytics": "39a66b70-f0c4-4aa1-a9bb-206462696411"
+  }
 }

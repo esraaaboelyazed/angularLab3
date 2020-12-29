@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row>">
+        <div class=" col-4 active-pink-3 active-pink-4 mb-4">
+    <input class="form-control" type="search" #book [(ngModel)]="currentVal" (input)="getbook()" placeholder="Search" aria-label="Search">
+    </div>
+  </div>
+</div>
+<ul>
+    <li *ngFor="let book of data">
+        {{book.volumeInfo.title}}
+    </li>
+</ul>
